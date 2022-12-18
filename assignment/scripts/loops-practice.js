@@ -48,7 +48,9 @@ for (let i=0; i<stars.length; i++){
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
-
+let index = 0;
+const max = 10;
+// while loop
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 
