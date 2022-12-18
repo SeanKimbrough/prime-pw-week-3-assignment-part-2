@@ -27,6 +27,9 @@ for (let i=3; i<6; i++){
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+for (let even = 2; even <= 10; even ++){
+  console.log(even++);
+} // have to change the i variable and change it to the i is true as long as the even numbers are less than or equal to 10.
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
